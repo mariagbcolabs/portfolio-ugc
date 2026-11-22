@@ -6,6 +6,14 @@ Las capturas de perfil aportadas permiten validar estas métricas públicas, sin
 
 - Instagram: 1.807 seguidores y 70 publicaciones.
 - TikTok: 7.109 seguidores, 344 seguidos y 248,2 mil me gusta.
+- YouTube: 101 suscriptores y 15 vídeos.
+
+## YouTube
+
+Se ha añadido el canal como red en prueba, con los datos públicos visibles en la captura:
+
+- 101 suscriptores.
+- 15 vídeos.
 
 ## Instagram Insights
 
