@@ -26,4 +26,4 @@ Las estadísticas no verificadas se mantienen fuera de la interfaz como pendient
 
 ## Privacidad
 
-La carpeta `datos/` contiene una exportación privada y no debe publicarse ni copiarse a `dist/`. Los originales de `fotos/` y `videos/` se conservan sin modificar.
+Las exportaciones privadas no forman parte del proyecto publicado. Los originales de `fotos/` y `videos/` se conservan sin modificar.
