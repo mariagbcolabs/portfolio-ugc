@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.*
+datos/
+*.zip
+datos/**/*.html
+Thumbs.db

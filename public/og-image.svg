@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#faf7f5"/>
+  <circle cx="1010" cy="90" r="210" fill="#f1dfe5"/>
+  <circle cx="1100" cy="570" r="180" fill="#d6b9b4" opacity=".55"/>
+  <text x="90" y="115" fill="#877e7c" font-family="Arial, sans-serif" font-size="19" letter-spacing="5">MGB.  /  VALENCIA · SPAIN</text>
+  <text x="90" y="300" fill="#292625" font-family="Georgia, serif" font-size="74">María Gómez</text>
+  <text x="90" y="390" fill="#b58e92" font-family="Georgia, serif" font-size="74" font-style="italic">Belenguer</text>
+  <text x="94" y="475" fill="#292625" font-family="Arial, sans-serif" font-size="23" letter-spacing="3">UGC CREATOR · FASHION · BEAUTY · LIFESTYLE</text>
+  <text x="94" y="545" fill="#877e7c" font-family="Arial, sans-serif" font-size="17">Contenido con intención.</text>
+</svg>
