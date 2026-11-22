@@ -5,23 +5,25 @@ import './styles.css'
 const A = import.meta.env.BASE_URL
 const media = [
   { id: 'outfit', title: 'Siluetas que cuentan historias', tag: 'Moda', type: 'video', src: `${A}media/video_outfit_maria.mov`, image: null, note: 'Vídeo local · reproducción directa' },
-  { id: 'pantalones', title: 'Try-on: denim con actitud', tag: 'UGC', type: 'video', src: `${A}media/video_pantalones_maria.mp4`, image: null, note: 'Vídeo local · reproducción directa' },
-  { id: 'bag', title: 'The everyday bag diary', tag: 'Lifestyle', type: 'video', src: `${A}media/video_bag_diary_maria.mov`, image: null, note: 'Vídeo local · reproducción directa' },
-  { id: 'viaje', title: 'Travel diary · Ciervos', tag: 'Lifestyle', type: 'video', src: `${A}media/video_viaje_ciervos.mov`, image: null, note: 'Vídeo local · reproducción directa' },
-  { id: 'queso', title: 'Producto que se disfruta', tag: 'Colaboraciones', type: 'video', src: `${A}media/colab_queso_mahon.mp4`, image: null, brand: 'Queso Mahón', note: 'Contenido promocional · reproducción directa' },
-  { id: 'singularu', title: 'Detalles que elevan un look', tag: 'Colaboraciones', type: 'video', src: `${A}media/singularu_colab_evento.mp4`, image: null, brand: 'Singularu', note: 'Contenido de evento · reproducción directa' },
-  { id: 'makeup-1', title: 'Makeup look · 01', tag: 'Belleza', type: 'video', src: `${A}media/makeup_v1.mp4`, image: null, note: 'Beauty content · sin colaboración' },
-  { id: 'makeup-2', title: 'Makeup look · 02', tag: 'Belleza', type: 'video', src: `${A}media/makeup_v2.mp4`, image: null, note: 'Beauty content · sin colaboración' },
-  { id: 'makeup-3', title: 'Makeup look · 03', tag: 'Belleza', type: 'video', src: `${A}media/makeup_v3.mp4`, image: null, note: 'Beauty content · sin colaboración' },
+  { id: 'pantalones', title: 'Try-on: denim con actitud', tag: 'Moda', type: 'video', src: `${A}media/video_pantalones_maria.mp4`, image: null, note: 'Vídeo local · reproducción directa' },
+  { id: 'bag', title: 'The everyday bag diary', tag: 'Moda', type: 'video', src: `${A}media/video_bag_diary_maria.mov`, image: null, note: 'Vídeo local · reproducción directa' },
+  { id: 'viaje', title: 'Travel diary · Ciervos', tag: 'Lifestyle / Travel', type: 'video', src: `${A}media/video_viaje_ciervos.mov`, image: null, note: 'Vídeo local · reproducción directa' },
+  { id: 'queso', title: 'Producto que se disfruta', tag: 'UGC / Colaboraciones', type: 'video', src: `${A}media/colab_queso_mahon.mp4`, image: null, brand: 'Queso Mahón', note: 'Contenido promocional · reproducción directa' },
+  { id: 'singularu', title: 'Detalles que elevan un look', tag: 'UGC / Colaboraciones', type: 'video', src: `${A}media/singularu_colab_evento.mp4`, image: null, brand: 'Singularu', note: 'Contenido de evento · reproducción directa' },
+  { id: 'makeup-1', title: 'Makeup look · 01', tag: 'Beauty', type: 'video', src: `${A}media/makeup_v1.mp4`, image: null, note: 'Beauty content · sin colaboración' },
+  { id: 'makeup-2', title: 'Makeup look · 02', tag: 'Beauty', type: 'video', src: `${A}media/makeup_v2.mp4`, image: null, note: 'Beauty content · sin colaboración' },
+  { id: 'makeup-3', title: 'Makeup look · 03', tag: 'Beauty', type: 'video', src: `${A}media/makeup_v3.mp4`, image: null, note: 'Beauty content · sin colaboración' },
   { id: 'editorial-outfit', title: 'Editorial de moda', tag: 'Moda', type: 'image', image: `${A}media/foto_outfit_maria.JPG`, note: 'Contenido editorial' },
-  { id: 'editorial-dublin', title: 'Beauty portrait', tag: 'Belleza', type: 'image', image: `${A}media/foto_cara_maria_dublin.JPG`, note: 'Contenido editorial' },
-  { id: 'editorial-event', title: 'Estilo en evento', tag: 'Moda', type: 'image', image: `${A}media/foto_evento_cpfw.JPG`, note: 'Contenido editorial' },
-  { id: 'cuticle', title: 'Rutina de cuidado', tag: 'Belleza', type: 'image', image: `${A}media/cuticle_colab_producto.jpg`, brand: 'Cuticle', note: 'Colaboración · imagen original convertida a JPG' },
-  { id: 'pantene', title: 'Haircare en mi rutina', tag: 'Belleza', type: 'image', image: `${A}media/pantene_serum_colab_producto.jpg`, brand: 'Pantene', note: 'Colaboración · imagen original convertida a JPG' },
+  { id: 'editorial-event', title: 'Estilo en evento', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/foto_evento_cpfw.JPG`, note: 'Contenido editorial' },
+  { id: 'cuticle', title: 'Rutina de cuidado', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/cuticle_colab_producto.jpg`, brand: 'Cuticle', note: 'Colaboración · imagen original convertida a JPG' },
+  { id: 'pantene', title: 'Haircare en mi rutina', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/pantene_serum_colab_producto.jpg`, brand: 'Pantene', note: 'Colaboración · imagen original convertida a JPG' },
+  { id: 'fiji', title: 'Producto Fiji', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/fiji_colab_producto.jpg`, brand: 'Fiji', note: 'Colaboración · imagen original convertida a JPG' },
+  { id: 'queso-producto', title: 'Producto Queso Mahón', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/queso_mahon_producto.jpg`, brand: 'Queso Mahón', note: 'Colaboración · imagen original convertida a JPG' },
+  { id: 'garnier', title: 'Producto de skincare', tag: 'UGC / Colaboraciones', type: 'image', image: `${A}media/garnier_crema_producto_colab.JPG`, brand: 'Garnier', note: 'Colaboración · imagen de producto' },
 ]
 
 const collaborations = [
-  { name: 'Alma Libre Açai House', kind: 'Contenido promocional', category: 'Lifestyle / Gastronomía', url: 'https://www.instagram.com/reel/DPmH5FIDaJ4/' },
+  { name: 'Alma Libre Açai House', kind: 'Contenido promocional', category: 'Lifestyle / Gastronomía', url: 'https://www.instagram.com/reel/DPmH5FIDaJ4/', extra: 'https://www.tiktok.com/@mmaria_gomezz/video/7559264013280922902?is_from_webapp=1&sender_device=pc&web_id=7678344790845326870' },
   { name: "McDonald's", kind: 'Contenido promocional', category: 'Lifestyle', url: 'https://www.instagram.com/reel/DJW5UinNQTS/' },
   { name: 'Cuticle', kind: 'Colaboración', category: 'Belleza', url: 'https://www.tiktok.com/@mmaria_gomezz/video/7660988887023570198' },
   { name: 'Pantene', kind: 'Colaboración · 2 contenidos', category: 'Belleza / Cabello', url: 'https://www.tiktok.com/@mmaria_gomezz/video/7654632280308092182', extra: 'https://www.tiktok.com/@mmaria_gomezz/video/7605666050327252246' },
@@ -35,7 +37,7 @@ const services = ['Vídeos UGC para marcas', 'Contenido de moda', 'Hauls y try-o
 
 function App() {
   const [filter, setFilter] = useState('Todos')
-  const filters = ['Todos', 'Moda', 'Belleza', 'Lifestyle', 'UGC', 'Colaboraciones']
+  const filters = ['Todos', 'Moda', 'UGC / Colaboraciones', 'Lifestyle / Travel', 'Beauty']
   const filtered = media.filter((item) => filter === 'Todos' || item.tag === filter)
   return <>
     <header className="nav"><a className="logo" href="#inicio">MGB<span>.</span></a><nav><a href="#portfolio">Trabajo</a><a href="#sobre-mi">Sobre mí</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></nav><a className="nav-cta" href="#contacto">Hablemos <span>↗</span></a></header>
