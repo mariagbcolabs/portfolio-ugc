@@ -16,4 +16,8 @@
 .youtube-card span{font-size:11px;color:var(--muted)}
 .youtube-card a{font-size:10px;text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--ink)}
 @media(max-width:800px){.network-followers{grid-template-columns:1fr}.youtube-card{align-items:flex-start;gap:20px;flex-direction:column}}
+.work-media,.card-1 .work-media,.card-2 .work-media{height:auto;background:transparent;overflow:visible}
+.work-media img,.work-media video{height:auto;width:100%;object-fit:contain;display:block}
+.work-media.placeholder{min-height:300px;overflow:hidden}
+.work-card:hover img{transform:none}
 .local-only{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px}
