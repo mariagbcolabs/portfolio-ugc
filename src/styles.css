@@ -6,3 +6,4 @@
 .stats-platform{margin-top:42px}.stats-platform+.stats-platform{margin-top:78px}.platform-heading{border-top:1px solid rgba(41,38,37,.2);padding-top:18px;margin-bottom:28px;display:flex;justify-content:space-between;gap:20px;align-items:baseline}.platform-heading span{font-size:10px;letter-spacing:2px;font-weight:700;color:#a37d83}.platform-heading small{font-size:10px;color:var(--muted)}
 .privacy{padding-top:48px;padding-bottom:48px;background:#f6efed;max-width:none;padding-left:12vw;padding-right:12vw}.privacy p{max-width:700px;color:var(--muted);font-size:12px;line-height:1.8}.privacy a{text-decoration:underline;color:var(--ink)}
 .contact h2 em{color:white}
+.hero-image img{object-fit:contain;background:var(--pink)}
